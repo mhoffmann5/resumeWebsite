@@ -1,0 +1,15 @@
+.col1 {
+    background: white !important;
+    
+}
+
+.col1:hover {
+    background: #d3d3d3!important;
+    opacity:.2;
+    
+}
+
+/* img-responsive {
+    width: 100%;
+    max-width: 100%;
+} */

@@ -1,0 +1,11 @@
+.icon {
+    width: 1.75em;
+    height: 2em;
+    vertical-align: -.250em;
+    margin-left: 10;
+}
+
+.icon:hover {
+    opacity:.3;
+    cursor: pointer;
+}
