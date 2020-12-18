@@ -4,9 +4,9 @@ import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 import Image from 'react-bootstrap/Image'
 import './Experience.css'
-import myImage from './stoneX.png'
+import myImage from './uw-madison.png'
 
-class Experience extends React.Component {
+class Education extends React.Component {
     constructor(props){
         super(props);
         this.redirectToStoneX = this.redirectToStoneX.bind()
@@ -14,7 +14,7 @@ class Experience extends React.Component {
 
     redirectToStoneX(){
         // window.location.href = 'http://www.stonex.com'
-        window.open("http://www.stonex.com")
+        window.open("http://www.wisc.edu")
 
     }
     render(){
@@ -54,4 +54,4 @@ class Experience extends React.Component {
         )
     }
 }
-export default Experience;
+export default Education;

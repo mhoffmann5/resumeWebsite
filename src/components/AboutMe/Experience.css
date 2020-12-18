@@ -5,8 +5,8 @@
 
 .col1:hover {
     background: #d3d3d3!important;
-    opacity:.2;
-    
+    opacity:.35;
+    cursor: pointer;  
 }
 
 /* img-responsive {
