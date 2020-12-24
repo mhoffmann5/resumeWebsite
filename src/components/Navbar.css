@@ -1,4 +1,5 @@
 .navbar-light .navbar-nav .nav-link {
+    height: 5vh;
     color: black ;
     font-weight: 500;
     font-size: 16;

@@ -1,6 +1,6 @@
 .col1 {
     background: white !important;
-    
+    height:15vh
 }
 
 .col1:hover {
@@ -9,6 +9,19 @@
     cursor: pointer;  
 }
 
+
+@media screen and (max-width: 600px){
+    .col1 {
+        background: white !important;
+        height: 7.5vh;
+    }
+    
+    .col1:hover {
+        background: #d3d3d3!important;
+        opacity:.35;
+        cursor: pointer;  
+    }
+}
 /* img-responsive {
     width: 100%;
     max-width: 100%;

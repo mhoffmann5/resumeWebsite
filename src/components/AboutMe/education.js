@@ -27,7 +27,7 @@ class Education extends React.Component {
                                         borderColor: '#f2f2f2'}}> {this.props.data.dates}</p>
                   
                     <Row style={{height:'20vh'}} className="col1" onClick={()=>{this.redirectToStoneX()}} >
-                    <Col xs={3} style={{ marginTop:50,marginBottom:50}}>
+                    <Col md={3} className="d-none d-md-block" style={{ marginTop:50,marginBottom:50}}>
                     
                         <Image class="img-responsive" src={myImage} rounded fluid/>
                       
